@@ -1,0 +1,179 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Lovera;
+    src: url('font/Lovera.otf');
+}
+
+.main{
+    width: 100%;
+    background: url(pics/gradient.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #502b1d;
+    width: 100%;
+    height: 100px;
+}
+
+.icon img{
+    width: 10%;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.menu{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 210px;
+    margin: auto;
+    font-size: 15px;
+}
+
+ul li a{
+    font-family: Lovera;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #e7d6c4;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #937255;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainfr{
+    display: flex;
+}
+
+.container{
+    width: 11%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar{
+    width: 150px;
+    height: 550px;
+}
+
+.sidebar h3{
+    color: #1f0e08;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+} 
+
+
+.sidebar .all {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #5f4c3c;
+    color: #1f0e08;
+    border-radius: 5px;
+    background-color: #a19789;
+    color: #333;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .all:hover {
+    border-color: #080808;
+}
+
+.sidebar .all:focus {
+    border-color: #666;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 89%;
+    border-bottom: 2px solid black;
+}
+
+.product, .product, .product3, .product4{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 330px;
+    height: 400px;
+    border: .5px solid #502b1d;
+}
+
+.product img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
