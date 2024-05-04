@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Lovera;
+    src: url('font/Lovera.otf');
+}
+
+.main{
+    width: 100%;
+    background: url(pics/gradient.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #502b1d;
+    width: 100%;
+    height: 100px;
+}
+
+.icon img{
+    width: 10%;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.menu{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 210px;
+    margin: auto;
+    font-size: 15px;
+}
+
+ul li a{
+    font-family: Lovera;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #e7d6c4;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #937255;
+}
+
+.content {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Georgia;
+}
+
+.about {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Georgia;
+    color: #502b1d;
+    font-size: 23px;
+}
+
+.combined1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.img1 {
+    background-image: url(pics/interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 500px;
+    margin-left: 150px;
+    box-shadow: 0 0 10px;
+    margin-top: 30px;
+}
+
+.section1 {
+    width: 40%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    color: #502b1d;
+    border: 1px solid #502b1d;
+}
+
+.section1 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.combined2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.img2 {
+    background-image: url(pics/Approach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 500px;
+    margin-right: 150px;
+    box-shadow: 0 0 10px;
+    margin-top: 30px;
+}
+
+.section2 {
+    width: 40%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    color: #502b1d;
+    border: 1px solid #502b1d;
+}
+
+.section2 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.combined3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.img3 {
+    background-image: url(pics/Process.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 500px;
+    margin-left: 150px;
+    box-shadow: 0 0 10px;
+    margin-top: 30px;
+}
+
+.section3 {
+    width: 40%;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    color: #502b1d;
+    border: 1px solid #502b1d;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
